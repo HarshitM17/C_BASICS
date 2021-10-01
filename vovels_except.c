@@ -2,12 +2,12 @@
 #include<conio.h>
 
 int main(){
-    char aos;
+    char a;
     printf("Enter the letter: ");
-    scanf("%c",&aos);
+    scanf("%c",&a);
 
-    if(aos='a'||'e'||'i'||'o'||'u')
-    printf("%c is vovel congrats!!",aos);
+    if(a=='a'||a=='e'||a=='i'||a=='o'|| a=='u')
+    printf("%c is vovel congrats!!",a);
     else
-    printf("%c is not a vovel");
+    printf("%c is not a vovel",a);
 }
